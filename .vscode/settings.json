@@ -1,0 +1,34 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/*.pyc": { "when" : "$(basename).py"}
+    },
+
+    "http.proxy": "https://proxy-chain.intel.com:911/",
+
+    "editor.minimap.enabled": false,
+
+    "files.trimTrailingWhitespace": true,
+
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+
+    "workbench.editor.showTabs": true,
+
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylamaEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Args": [
+        "--ignore=E501"
+    ],
+
+    "htmlhint.options": {
+        "doctype-first": false
+    },
+    "python.unitTest.promptToConfigure": false,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false
+}
