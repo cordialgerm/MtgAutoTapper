@@ -74,8 +74,8 @@ Some lands have **Activated Abilities**, which means the land can be ![T](/docs/
 
 Some lands produce colorless mana, but can also produce colored mana if the player is willing to pay a cost. In this case, the land should oftentimes only be used to produce colored mana if there is no other choice, and should instead be used to produce colorless mana if possible.
 
-![Desert of the Mindful](/docs/img/desert_of_the_mindful.jpg)
-![Desert of the Fervent](/docs/img/desert_of_the_fervent.jpg)
+![Ipnu Rivulet](/docs/img/ipnu_rivulet.jpg)
+![Ramanup Ruins](/docs/img/ramanup_ruins.jpg)
 
 ## Examples
 
@@ -129,19 +129,19 @@ You again have in hand **Opt**, **Magma Spray**, and **Lightning Strike**:
 ![Magma Spray](/docs/img/magma_spray.jpg)
 ![Lightning Strike](/docs/img/lightning_strike.jpg)
 
-You have a **Desert of the Fervent**, an **Desert of the Mindful**, and a **Sulfur Falls** in play:
+You have a **Ramanup Ruins**, an **Ipnu Rivulet**, and a **Sulfur Falls** in play:
 
-![Desert of the Fervent](/docs/img/desert_of_the_fervent.jpg)
-![Desert of the Mindful](/docs/img/desert_of_the_mindful.jpg)
+![Ramanup Ruins](/docs/img/ramanup_ruins.jpg)
+![Ipnu Rivulet](/docs/img/ipnu_rivulet.jpg)
 ![Sulfur Falls](/docs/img/sulfur_falls.jpg)
 
 You wish to cast your **Lightning Strike** to attack your opponent. Which lands should you tap?
 
 This situation is not as clear-cut. You have three choices:
 
-1. ![T](/docs/img/tap_symbol.png) **Sulfur Falls** and **Desert of the Mindful**
-1. ![T](/docs/img/tap_symbol.png) **Sulfur Falls** and **Desert of the Fervent**
-1. ![T](/docs/img/tap_symbol.png) **Desert of the Mindful** and **Desert of the Fervent**
+1. ![T](/docs/img/tap_symbol.png) **Sulfur Falls** and **Ipnu Rivulet**
+1. ![T](/docs/img/tap_symbol.png) **Sulfur Falls** and **Ramanup Ruins**
+1. ![T](/docs/img/tap_symbol.png) **Ipnu Rivulet** and **Ramanup Ruins**
 
 The first two options will not cause you to lose life, but will leave you with the least options (either **Opt** or **Magma Spray**).
 The third option will cause you to lose 2 life, but will leave you with the most options (both **Opt** and **Magma Spray**).
@@ -179,12 +179,12 @@ You have in hand **Opt**, **Magma Spray**, and **Lightning Strike**:
 ![Magma Spray](/docs/img/magma_spray.jpg)
 ![Lightning Strike](/docs/img/lightning_strike.jpg)
 
-You have a 2 **Mountain**, 1 **Island**, 1 **Arch of Orazca**, in play:
+You have a 2 **Mountain**, 1 **Island**, 1 **Spires of Orazca**, in play:
 
 ![Mountain](/docs/img/mountain.jpg)
 ![Mountain](/docs/img/mountain.jpg)
 ![Island](/docs/img/island.jpg)
-![Spires of Orazca](/docs/img/spires_of_orazca.jpg)
+![Spires of Orazca](/docs/img/spire_of_orazca.jpg)
 
 You wish to cast your **Lightning Strike** to attack your opponent. Which lands should you tap?
 
@@ -192,15 +192,17 @@ You wish to cast your **Lightning Strike** to attack your opponent. Which lands 
 
 You have three choices:
 
-1. ![T](/docs/img/tap_symbol.png) **Mountain** **Mountain**
-1. ![T](/docs/img/tap_symbol.png) **Mountain** **Island**
-1. ![T](/docs/img/tap_symbol.png) **Mountain** **Spires of Orazca**
+1. ![T](/docs/img/tap_symbol.png) **Mountain** and **Mountain**
+1. ![T](/docs/img/tap_symbol.png) **Mountain** and **Island**
+1. ![T](/docs/img/tap_symbol.png) **Mountain** and **Spires of Orazca**
 
 Option 1 precludes you from **Magma Spray**, but allows you to activate **Spires of Orazca** if your opponent attacks.
 Option 2 precludes you from **Opt**, but allows you to activate **Spires of Orazca** if your opponent attacks
 Option 3 precludes you from **Spires of Orazca**, but allows you to cast both **Opt** and **Magma Spray**.
 
 Choosing which of these options is highly dependent on the current game state. Which is more likely to be useful, **Opt**, **Magma Spray**, or **Spires of Orazca**?
+
+The answer to this question, of course, depends on the game state. If your oponent has many creatures, then **Spires of Orazca** is generally a better option to leave open. If they have no creatures that are likely to attack you, then leaving the **Sulfur Falls** is probably better.
 
 ## Can we make a good Auto-Tapping Algorithm?
 
