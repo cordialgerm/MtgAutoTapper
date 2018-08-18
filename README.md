@@ -11,3 +11,4 @@ Roughly each week, I will add an article introducing the problem, discussing var
 ## Articles
 
 1. [**Part 1: Introducing the Problem**](/docs/introduction.md)
+1. [**Part 2: Getting Greedy**](/docs/heuristic.md)
